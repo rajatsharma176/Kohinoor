@@ -140,7 +140,7 @@ const TRUST_CARDS = [
   {
     icon: MapPin,
     title: "Our Location",
-    lines: ["28-C, 2nd Extension", "Akhnoor, Jammu"],
+    lines: ["28-C, 2nd Extension", "Gandhi Nagar, Jammu"],
     sub: "Opposite Bahu Plaza",
   },
   {
@@ -204,7 +204,7 @@ function Navbar({ onReserve }) {
             KOHINOOR
           </span>
           <span className="text-[9px] tracking-[0.3em] text-stone-400 uppercase">
-            Fine Dining · Akhnoor
+            Fine Dining · Jammu
           </span>
         </div>
 
@@ -668,7 +668,7 @@ function Footer() {
             <li className="flex items-start gap-2">
               <MapPin size={14} className="text-amber-400 mt-0.5 shrink-0" />
               <span>
-                Akhnoor,<br />
+                28-C, 2nd Extension, Gandhi Nagar,<br />
                 Jammu – Opposite Bahu Plaza
               </span>
             </li>
@@ -713,7 +713,7 @@ function Footer() {
       {/* Copyright */}
       <div className="border-t border-stone-800 px-4 py-5 text-center">
         <p className="text-stone-600 text-xs">
-          © {new Date().getFullYear()} Kohinoor Restaurant, Akhnoor,
+          © {new Date().getFullYear()} Kohinoor Restaurant, Gandhi Nagar,
           Jammu. All rights reserved. · Website prototype for client review.
         </p>
       </div>
